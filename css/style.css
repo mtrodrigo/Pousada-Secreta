@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro' sans-serif;
+}
+.cabecalho{
+    width: 100%;
+    background-color: #ffffffda;
+    height: 100px;
+    position: fixed; 
+    display: flex;
+    z-index: 1;
+    border-bottom: 2px solid #fff;   
+}
+.cabecalho-int{
+    width: 1024px;
+    display: flex;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+           
+}
+.cabecalho-logo{
+    color: rgb(37, 36, 36);
+}
+.cabecalho-logo h1{
+    color: rgb(37, 36, 36);
+    font-size: 45px;
+}
+.cabecalho-logo a{
+    color: rgb(37, 36, 36);
+    text-decoration: none;
+}
+.cabecalho-logo span{
+    color: rgb(4, 202, 163);
+    
+}
+.cabecalho-links a{
+    text-decoration: none;
+    color: rgb(37, 36, 36);
+    font-size: 20px;
+    padding: 0 20px;
+}
+.secao-conteudo-1{
+    background-image: url(../assets/img-fundo.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin: 0 auto;
+    padding: 50px;
+    
+}
+.secao-conteudo-texto{
+    width: 600px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    background-color: rgb(4, 202, 163);
+    margin: 0 auto;
+    opacity: 0.8;   
+}
+.secao-conteudo-texto h1{
+    color: #fff;
+    font-size: 70px;
+    font-weight: 900; 
+    
+} 
+.secao-conteudo-texto p{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 900;
+    padding: 20px 0;
+}
+.secao-conteudo-2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+}
+.secao-conteudo-2-texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.secao-conteudo-2-texto, .rota-texto, .sobre-texto h1{
+    font-size: 50px;
+    color: rgb(37, 36, 36);
+}
+.secao-conteudo-2-texto, .rota-texto, .sobre-texto p{
+    font-size: 30px;
+    color: rgb(37, 36, 36);
+    padding-bottom: 10px;
+}
+.secao-conteudo-2-img{
+    display: flex;
+    margin: 0 auto;
+
+}
+.conteudo-cards{
+    display: flex;
+    justify-content: space-between;
+}
+.conteudo-cards div{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+.conteudo-cards img{
+    max-width: 99%;
+}
+.conteudo-cards a{
+    font-size: 25px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 10px ;
+    color: rgb(37, 36, 36);
+}
+.rota{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+.rota-texto{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+}
+.rota-maps{
+    padding: 20px 0;
+    margin: 0 auto;
+    max-width: 100%;
+}
+.rota-maps iframe{
+    width: 1024px;
+    height: 900px;
+}
+.sobre{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.sobre-texto{
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.sobre-cards-linha-1, .sobre-cards-linha-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+    pad: 20px;
+    margin: 0 auto;
+}
+.sobre-cards-card{
+    display: flex;
+    width: 40%;
+}
+.sobre-cards-card-texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.sobre-cards-card-img img{
+    width: 150px;
+    height: 150px;
+}
+.rodape{
+    background-color: rgb(4, 202, 163);
+    opacity: 0.8;
+    
+}
+.rodape-info{
+    width: 1024px;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    margin: auto;
+    border-bottom: 2px solid rgb(24, 143, 119);
+    padding: 30px;
+}
+.rodape-info h3{
+    font-size: 18px;
+    color: rgb(37, 36, 36);    
+}
+
+.rodape-info div{
+    width: 92%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.rodape-info p{
+    font-size: 16px;
+    color: rgb(37, 36, 36);
+}
+.rodape-info div img{
+   height: 40px;
+}
+.rodape-info div a{
+    text-decoration: none;
+    color: rgb(37, 36, 36);
+    padding: 0 5px;
+}
+.rodape-criador{
+    font-size: 16px;
+    padding: 20px 0;
+    text-align: center;
+    color: rgb(37, 36, 36);
+}
+.rodape-criador a{
+    text-decoration: none;
+    color: rgb(37, 36, 36);
+    font-weight: 900;
+}
+
+
+
+
+
