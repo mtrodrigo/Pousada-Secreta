@@ -179,6 +179,7 @@
 }
 .sobre-cards-card{
     display: flex;
+    justify-content: space-between;
     width: 40%;
 }
 .sobre-cards-card-texto{
